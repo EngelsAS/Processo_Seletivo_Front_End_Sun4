@@ -16,5 +16,5 @@ As questões foram feitas utilizando **React Js** e **Tailwind CSS**.
 - Rota para a Página 1 - Referente a questão 4: `/`.
 - Rota para a Página 2 - Referente a questão 5: `/questao_5`.
 
-> **OBS**: Ao abrir o projeto você ja será apresentado a página 1 que corresponde a rota "/".
+> **OBS**: Ao abrir o projeto você ja será apresentado a página 1 que corresponde a rota `/`.
 > No cabeçalho da página 1 terá um botão que ao ser clicado irá lhe redirecionar para a página 2.
