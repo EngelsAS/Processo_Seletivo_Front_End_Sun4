@@ -4,6 +4,7 @@ import { FaCompassDrafting } from "react-icons/fa6";
 import { FaLightbulb } from "react-icons/fa";
 import { GiCoinflip, GiMagnifyingGlass } from "react-icons/gi";
 import { IconWithText } from "../../components/iconWithText";
+import InputMask from "react-input-mask";
 
 function Questao5() {
   const handleSubmit = (e) => {
@@ -93,7 +94,9 @@ function Questao5() {
               </div>
               <div>
                 <label htmlFor="celular">Celular</label>
-                <InputForm id="celular" type="text" />
+                <InputMask mask="(99) 99999-9999" maskPlaceholder={null}>
+                  <InputForm id="celular" type="text" />
+                </InputMask>
               </div>
               <button className="bg-amber-500 p-4 rounded-md mt-4 text-white hover:bg-amber-600 transition-colors uppercase font-semibold">
                 Quero conhecer os planos!
